@@ -1,4 +1,5 @@
-BIN_DIR := $(go env GOPATH)/bin
+GOPATH  := $(shell go env GOPATH)
+BIN_DIR := $(GOPATH)/bin
 GOLINT  := $(BIN_DIR)/golint
 PGG     := $(BIN_DIR)/protoc-gen-go
 GBD     := $(BIN_DIR)/go-bindata
