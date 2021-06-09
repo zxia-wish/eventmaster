@@ -1,6 +1,7 @@
 # eventmaster
 
 [![build status](https://github.com/wish/eventmaster/actions/workflows/build.yml/badge.svg)](https://github.com/wish/eventmaster/actions)
+[![Docker Repository on Quay](https://quay.io/repository/wish/eventmaster/status "Docker Repository on Quay")](https://quay.io/repository/wish/eventmaster)
 
 There are lots of events that happen in production such as deploys, service
 restarts, scale-up operations, etc. Right now these events happen, but we have
